@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "declaration": true,
+    "esModuleInterop": true,
+    "module": "commonjs",
+    "target": "ES2015",
+    "lib": ["dom", "es2018"],
+    "noImplicitAny": true,
+    "removeComments": true,
+    "preserveConstEnums": true,
+    "sourceMap": false,
+    "rootDir": "src",
+    "outDir": "dist"
+  },
+  "include": [
+    "src/"
+  ],
+  "exclude": [
+    "./__tests__/",
+    "./node_modules/",
+    "./dist/"
+  ],
+}
